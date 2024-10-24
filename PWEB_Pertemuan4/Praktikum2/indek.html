@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Praktikum 4</title>
+    <style>
+        * {
+            margin: 2px;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header, nav, article, section, aside, footer {
+            border: 2px solid #000;
+            padding: 8px;
+        }
+        header {
+            background-color: #729fff;
+        }
+        nav {
+            background-color: #ffd000;
+        }
+        article {
+            background-color: #f0ce80;
+            flex: 3;
+        }
+        aside {
+            background-color: #729fff;
+            flex: 1;
+        }
+        footer {
+            background-color: #729fff;
+        }
+        .container {
+            display: flex;
+            flex-direction: row;
+        }
+        .content {
+            display: flex;
+            flex-direction: column;
+            flex: 3;
+        }.text {
+            margin: 30px;
+            align-items: center;
+        }.g1{
+            height: 100px;
+            margin-right: 5px;
+            border: 2px solid black;
+        }.g2{
+            height: 100px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div style="display: flex; align-items: center; margin: 10px; padding: 10px;">
+            <div style="border: 2px solid black; padding: 5px;margin-left: 30px;">
+                <img src="STT-Terpadu-Nurul-Fikri.png" alt=""></div>
+                <div class="text">
+                <h1 style="text-align: center; ">PRAKTIKUM WEB</h1></div>
+                
+    </header>
+    <nav>
+        <B><p>DAFTAR PRAKTIKUM</p></B>
+        <li><a href="../pertemuan4.html" target="panggilframe">Praktikum Pertemuan 4</a></li>
+        <li><a href="../pertemuan2.html" target="panggilframe">Praktikum Pertemuan 2</a></li>
+        <li><a href="../Praktikum2/STT-Terpadu-Nurul-Fikri.png" target="panggilframe">Logo STT STT Terpadu Nurul Fikri</a></li>
+    </nav>
+    <div class="container">
+        <div class="content">
+            <article>
+                <h2>Pemrograman Web</h2>
+                <section>
+                    <p>Section 2: <a href="https://www.dicoding.com/academies/123">Belajar Dasar Pemrograman Web</a></p>
+                </section>
+                <section>
+                    <p>Section 1: <a href="https://www.petanikode.com/tutorial/html/">Belajar HTML</a></p>
+                </section>
+                <section>
+                    <p>Section 3: <a href="https://m3.material.io/develop/web">Material Design Web</a></p>
+                </section>
+            </article>
+        </div>
+        <aside>
+            <p>Aside</p>
+            <div style="display: flex;justify-content: center;">
+                <div>
+                    <a href="https://www.detik.com/jabar/berita/d-6203017/iptek-adalah-pengertian-beserta-manfaat-dan-dampaknya">
+                        <img src="https://akcdn.detik.net.id/community/media/visual/2021/07/05/ilustrasi-teknologi-digital_169.jpeg?w=700&q=90" alt="aside"; class="g1">
+                    </a>
+                </div>
+                <div>
+                    <a href="https:https://nurulfikri.ac.id/identitas/">
+                        <img src="https://nurulfikri.ac.id/wp-content/uploads/2020/08/logo-sttnf-12-300x218.jpg" alt="aside"; class="g2">
+                    </a>
+                </div>
+            </div>
+        </aside>
+    </div>
+    <footer style="text-align: center; background: rgb(9, 248, 69); color: rgb(8, 8, 8);">
+        <h4>&copy; Coppyright by Rohmat - 2024</h4>
+    </footer>
+</body>
+</html>
